@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-8y@sta_191*+lg5iz=tjh6(o6_=j1#3zb8pj*pusznq=z=qg3g'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['ExpenseTracker-env.eba-9tnhkgsu.ap-south-1.elasticbeanstalk.com']
 
 
 # Application definition
