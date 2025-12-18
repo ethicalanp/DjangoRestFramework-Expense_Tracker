@@ -27,7 +27,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.environ.get('DEBUG', 'False') == 'True'
 
-ALLOWED_HOSTS = ['ExpenseTracker-env.eba-9tnhkgsu.ap-south-1.elasticbeanstalk.com']
+ALLOWED_HOSTS = ['ExpenseTracker-env.eba-9tnhkgsu.ap-south-1.elasticbeanstalk.com',]
 
 
 # Application definition
