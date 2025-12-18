@@ -35,4 +35,4 @@ jobs:
           application_name: ExpenseTracker
           environment_name: ExpenseTracker-env
           version_label: ${{ github.sha }}
-          zip_file: ExpenseTracker.zip
+          deployment_package: ExpenseTracker.zip
